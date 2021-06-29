@@ -18,9 +18,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
   },
   "include": [
-    "src"
+    "src",
+    "craco.config.js",
+    "babel.config.js",
+    "tailwind.config.js"
   ]
 }
