@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "cleanup-template": "rm -rf ./_template_",
     "generate-dirs": "mkdir _template_ && cd _template_ && mkdir template && cd template && mkdir src && mkdir public && cd .. && cd ..",
-    "copy-resources": "cp -a ./src/. _template_/template/src &&  cp -a ./public/. _template_/template/public && cp template.json _template_/ && cp template-package.json _template_/package.json && cp .gitignore _template_/template/gitignore && cp .eslintrc.json _template_/template/ && cp .prettierrc.json _template_/template/ && cp craco.config.js _template_/template/ && cp tailwind.config.js _template_/template/ && cp babel.config.js _template_/template/",
+    "copy-resources": "cp -a ./src/. _template_/template/src &&  cp -a ./public/. _template_/template/public && cp template.json _template_/ && cp template-package.json _template_/package.json && cp .gitignore _template_/template/gitignore && cp .eslintrc.json _template_/template/ && cp .prettierrc.json _template_/template/ && cp craco.config.js _template_/template/ && cp tailwind.config.js _template_/template/ && cp babel.config.js _template_/template/ && cp CRA-README.md _template_/template/README.md && cp README.md _template_/",
     "generate-template": "npm run cleanup-template && npm run generate-dirs && npm run copy-resources"
   },
   "browserslist": {

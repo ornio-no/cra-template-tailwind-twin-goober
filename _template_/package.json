@@ -1,21 +1,24 @@
 {
   "name": "cra-template-tailwind-twin-goober",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "typescript",
     "tailwind",
+    "tailwindcss",
     "goober",
     "twin.macro",
     "eslint",
     "prettier",
     "husky",
-    "css-in-js"
+    "css-in-js",
+    "craco",
+    "babel"
   ],
   "author": "Redzep Murati <redzep.murati.f@gmail.com>",
-  "description": "Typescript template with tailwind css twin macro and goober",
+  "description": "Typescript template with tailwindcss twin macro and goober",
   "repository": {
     "type": "git",
     "url": "https://github.com/rmurati/cra-template-tailwind-twin-goober",
